@@ -35,6 +35,7 @@ $ sudo service docker start
 Verify docker is installed correctly by running a test image in a container.
 
 $ sudo docker run hello-world
+
 Unable to find image 'hello-world:latest' locally
     latest: Pulling from hello-world
     a8219747be10: Pull complete
@@ -42,6 +43,8 @@ Unable to find image 'hello-world:latest' locally
     hello-world:latest: The image you are pulling has been verified. Important: image verification is a tech preview feature and should not be relied on to provide security.
     Digest: sha256:aa03e5d0d5553b4c3473e89c8619cf79df368babd1.7.1cf5daeb82aab55838d
     Status: Downloaded newer image for hello-world:latest
+    
+    
     Hello from Docker.
     This message shows that your installation appears to be working correctly.
 
